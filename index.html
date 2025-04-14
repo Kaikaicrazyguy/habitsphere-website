@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HabitSphere – Level Up Your Life</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Header -->
+  <header class="p-6 bg-gradient-to-r from-purple-600 to-indigo-600 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">HabitSphere</h1>
+      <nav class="space-x-6">
+        <a href="#features" class="hover:text-yellow-300">Features</a>
+        <a href="#preview" class="hover:text-yellow-300">Preview</a>
+        <a href="#pricing" class="hover:text-yellow-300">Pricing</a>
+        <a href="#testimonials" class="hover:text-yellow-300">Testimonials</a>
+        <a href="#download" class="hover:text-yellow-300">Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1503437313881-503a91226402');">
+    <h2 class="text-5xl font-extrabold mb-6">Turn Your Habits Into a Game</h2>
+    <p class="text-xl mb-8">Build worlds, unlock skins, and level up your real life in the most fun productivity app ever made.</p>
+    <a href="#download" class="bg-yellow-400 text-black font-semibold px-6 py-3 rounded-xl hover:bg-yellow-300 transition">Get Started</a>
+  </section>
+
+  <!-- In-App Preview (Screenshots) -->
+  <section id="preview" class="py-20 bg-gray-800 text-center">
+    <h2 class="text-4xl font-bold mb-8">In-App Preview</h2>
+    <p class="mb-10 text-lg">See what it's like to build your own world, complete habits, and track progress in HabitSphere.</p>
+    <div class="flex justify-center">
+      <img src="/mnt/data/A_2D_digital_illustration_displays_three_smartphon.png" class="rounded-xl shadow-md w-full max-w-4xl" alt="HabitSphere App Preview">
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 bg-gray-800">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+      <div class="p-6 bg-gray-700 rounded-xl shadow-md">
+        <h3 class="text-2xl font-bold mb-4">Custom Avatars & Worlds</h3>
+        <p>Design your character and unlock beautiful environments as you build consistent habits.</p>
+      </div>
+      <div class="p-6 bg-gray-700 rounded-xl shadow-md">
+        <h3 class="text-2xl font-bold mb-4">Social Exploration</h3>
+        <p>Visit your friends' worlds, challenge them to streak battles, and celebrate wins together.</p>
+      </div>
+      <div class="p-6 bg-gray-700 rounded-xl shadow-md">
+        <h3 class="text-2xl font-bold mb-4">Gamified Motivation</h3>
+        <p>Earn coins, XP, and rare items by completing real-life goals. Fun + productivity = HabitSphere.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 bg-gray-900 text-center">
+    <h2 class="text-4xl font-bold mb-10">What Our Users Say</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+        <p class="italic mb-4">“I used to forget my goals all the time. Now I can’t stop leveling up in my real life!”</p>
+        <h4 class="font-semibold">– Jamie T., Student</h4>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+        <p class="italic mb-4">“It’s like Animal Crossing but it makes me a better person.”</p>
+        <h4 class="font-semibold">– Leo P., Gamer</h4>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow-md">
+        <p class="italic mb-4">“The only app that got me to actually stick with my New Year’s resolutions.”</p>
+        <h4 class="font-semibold">– Aria K., Young Professional</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10">Flexible Pricing</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="bg-gray-800 p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Free</h3>
+          <p class="mb-4">Track up to 5 habits<br/>Basic world + avatar</p>
+          <p class="text-2xl font-bold">$0</p>
+        </div>
+        <div class="bg-yellow-400 text-black p-8 rounded-xl shadow-lg transform scale-105">
+          <h3 class="text-2xl font-semibold mb-4">Premium</h3>
+          <p class="mb-4">Unlimited habits<br/>Full customization<br/>Weekly challenges</p>
+          <p class="text-2xl font-bold">$5/month</p>
+        </div>
+        <div class="bg-gray-800 p-8 rounded-xl shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Creator Pack</h3>
+          <p class="mb-4">Design your own skins & worlds<br/>Earn from your creations</p>
+          <p class="text-2xl font-bold">$20/month</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA -->
+  <section id="download" class="py-20 bg-gradient-to-r from-indigo-600 to-purple-700 text-center">
+    <h2 class="text-4xl font-bold mb-6">Start Your Journey Now</h2>
+    <p class="mb-8 text-lg">HabitSphere is available on iOS and Android. Ready to turn your goals into a game?</p>
+    <a href="#" class="bg-black text-white px-8 py-4 rounded-xl hover:bg-gray-800">Download App</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 text-center text-gray-400">
+    &copy; 2025 HabitSphere. All rights reserved.
+  </footer>
+</body>
+</html>
